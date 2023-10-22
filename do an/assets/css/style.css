@@ -1,0 +1,451 @@
+/* Thuộc tính áp dụng cho toàn html */
+*{
+    padding: 0px;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*MENUHEAD*/
+#header{
+    background-color: #1B2021; 
+    max-height: 90px;
+}
+#mainmenu{
+    padding: 0 70px 0 70px;
+    background-color: #1B2021;
+    box-shadow: 0px 0px 10px 0px #1B2021;
+    display: flex;
+    justify-content: space-between;
+}
+#mainmenu div{
+    padding: 2px 0 0 50px;
+    width: 300px; 
+    max-height: 100x; 
+    filter: invert(100%);
+}
+#mainmenu div img{
+    object-fit: cover;
+    width: 300px;
+    height: 100px;
+}
+#nav-list{
+    max-width:40%;
+    float: left;
+}
+#nav-list li{
+    display: inline-flex;
+}
+#nav-list li a {
+color: rgb(255, 243, 243) ;
+text-decoration: none;
+line-height: 48px;
+padding: 30px 30px;
+display: inline  ;
+font-size: 20px;
+}
+#nav-list li a:hover {
+text-decoration: underline;
+background-color: #111414;
+}
+
+#nav-list-2{
+    max-width: 40%;
+    float:right;
+}
+#nav-list-2 li{
+    display: inline-flex;
+}
+#nav-list-2 li a{
+    color: rgb(255, 243, 243);
+    text-decoration: none;
+    line-height: 48px;
+    padding: 30px 30px;
+    display: inline;
+    font-size: 20px;
+}
+#nav-list-2 li a img {
+    filter: invert(100%);
+    width: 250X; 
+    height: 20px; 
+    object-fit: cover;
+    padding: 7px 10px 0 0;
+}
+#nav-list-2 li a:hover {
+text-decoration: underline;
+background-color: #111414;
+}
+/*BANNER*/
+#banner{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+#banner img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+#sale-info{
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    height: 560px;
+    width: 440px;
+}
+#sale-info div h1{
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    letter-spacing: 30px;
+    text-align: center;
+    padding: 50px 0 0 125px;
+
+}
+#sale-info div p{
+    position: absolute;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+    padding: 250px 0 0 110px; 
+    font-size: 30px;
+
+}
+#sale-info div h2 a{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding:450px 0 0 117px ;
+    font-size: 20px;
+
+}
+#sale-info div h2 a:hover{
+    text-decoration: underline;
+}
+/*WARENTY*/
+#nav-w {
+    position: relative;
+    background-color: #8F857D;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px ;
+    box-shadow: 10px 0px 10px 0px #8F857D;
+}
+#nav-w li{
+    display: inline-block;
+    filter:  invert(100%);
+}
+
+#nav-w li p{
+    background-size: cover;
+    padding: 0 70px 0 70px;
+}
+#nav-w li img{
+    width: 40px;
+    height: 40px;
+    align-content: center   ;
+}
+/*product*/
+#nav-select{
+    text-align: center;
+    padding: 0 20% 0 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav-select a{
+    text-decoration: none;
+    color: #F7F0F5  ;
+}
+#nav-select p{
+    text-decoration: NONE;
+    background-color: #5C5552;
+    height: 40px;
+    width: 20%;
+    padding: 10px ;
+    margin: 30px;
+    box-shadow: 10px 10px 10px 0px #8F857D;
+}
+#nav-select p:hover{
+    text-decoration: NONE;
+    background-color: #5C5552;
+    height: 40px;
+    width: 20%;
+    padding: 10px ;
+    margin: 30px;
+    box-shadow: 10px 10px 10px 0px #8F857D;
+}
+/* Lưới sản phẩm */
+.product-list{
+    position: relative;
+    width: 90%;
+    left:10%
+}
+.product-list li{
+    display: inline;
+}
+.product-list-content{
+    box-shadow: 10px 10px 8px #888888;
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    left: 5%;
+    background-color: white;
+
+}
+.item{
+    width: 260px;
+    height: 260px;
+    background-color: rgba(247, 240, 245,  0.4);
+    margin: 10px;
+    
+}
+.item img{
+    height: 260px;
+    width: 260px;
+    object-fit: fill;
+}
+.item p{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#info1 {
+    font-size: 18px;
+}
+#info1 a{
+    text-decoration: none;
+    color: black;
+}
+#info1 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#info2 {
+    font-size: 28px;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#info3 {
+    font-size: 17px;
+}
+
+
+.item-rowlist{
+    display: flex;
+    justify-content: center;
+    height: 360px;
+}
+/* Banner  */
+#banner2{
+    background-color: rgba(247, 240, 245,  0.4);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 55%;
+    height: 300px;
+    display: inline-flex;
+    left: 22.5%;
+}
+#inbanner2{
+    height: 300px;
+    padding: 0px 0px 0px 50px
+}
+#inbanner2 img{
+    height: 300px
+}
+#txbanner2{
+    padding: 50px 0 0 50px ;
+    text-decoration: none;
+    width: 450px;
+    height: 300px;
+    align-content: center;
+}
+#txbanner2 h1{
+    text-decoration: none;
+}
+#txbanner2 h2{
+    padding:30px 0  30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#txbanner2 a{
+    padding:0 0 0 250px;
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner2 a:hover{
+    text-decoration: underline;
+}
+#banner3{
+    background-color: rgba(247, 240, 245,  0.4);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 55%;
+    height: 300px;
+    display: inline-flex;
+    left: 22.5%;
+}
+#inbanner3{
+    height: 300px;
+    padding: 0px 0px 0px 100px
+}
+#inbanner3 img{
+    height: 300px
+}
+#txbanner3{
+    padding: 50px 0 0 50px ;
+    text-decoration: none;
+    width: 480px;
+    height: 300px;
+    align-content: center;
+}
+#txbanner3 h1{
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner3 h2{
+    padding:30px 0  30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: right;
+}
+#txbanner3 a{
+    padding:0 0 0 250px;
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner3 a:hover{
+    text-decoration: underline;
+}
+/* footer */
+.footer{
+    width: 100%;
+    margin-top: 200px;
+    background-color: #1B2021;
+    display: inline-flex;
+    flex-direction: row;
+}
+#footer-info{
+    position: relative;
+    width: 90%;
+    justify-content: space-around;
+}
+.footer div table{
+    position: relative;
+    left: 10%;
+    color: white;
+    text-align: left;
+    padding: 150px 0;
+}
+.footer div table th h1{
+    padding:10px 0 10px 0px
+}
+.footer div table th h2{
+    padding:10px 0 10px 50px
+}
+.footer div a{
+    text-decoration: none;
+    color: #F7F0F5;
+    
+}
+
+.footer div a:hover{
+    color: #27577e;
+    
+}
+#googlemap{
+    float: right;
+    opacity: 50%;
+    padding: 40px 30px 30px 30px;
+}
+#googlemap:hover{
+    opacity: 100%;
+    padding: 40px 30px 30px 30px;
+    
+    
+}
+
+#signinformwrap{
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 0px #1B2021;
+    left: 25%;
+    margin-top: 10%;
+    padding: 50px;
+    text-align: center;
+}
+form {
+    text-align: left ;
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+form h3{
+    
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+    background-color: #1B2021;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+button:hover {
+    opacity: 0.8;
+}
+#button1{
+    position: relative;
+    background-color: #1B2021;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#cart-wrap{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin: 50px 0;
+}
+#cart-wrap #headtext{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#cart-box{
+    background-color: gray;
+}
+#content table{
+    border: solid 1px black;
+    width: 100%;
+}
+.cart-table th #product{
+    width: 60% ;
+}
